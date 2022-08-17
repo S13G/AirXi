@@ -4,44 +4,87 @@
 <head>
   <meta charset="utf-8">
   <title>AirXi</title>
-  <meta name="description"
-        content="Enjoy your comfortable trip with the fastest transport service for airport arrivals">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="Enjoy your comfortable trip with the fastest transport service for airport arrivals"
+        name="description">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
 
-  <meta property="og:title" content="AirXi">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+  <meta content="AirXi" property="og:title">
+  <meta content="website" property="og:type">
+  <meta content="" property="og:url">
+  <meta content="" property="og:image">
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
+  <link href="site.webmanifest" rel="manifest">
+  <link href="icon.png" rel="apple-touch-icon">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet">
 
-  <meta name="theme-color" content="#fafafa">
+  <meta content="#fafafa" name="theme-color">
+  <script crossorigin="anonymous" src="https://kit.fontawesome.com/04feaeeba5.js"></script>
 </head>
 
 <body>
+<div class="background">
+  <img alt="taxi-bg" id="taxi-bg" src="img/slider-1-1.jpg">
+</div>
+<div class="info-flex">
+  <div class="email-container">
+    <i class="fa-solid fa-envelope"></i>
+    <p>needhelp@airxi.com</p>
+  </div>
+  <div class="logo-container">
+    <img alt="taxi-logo" id="taxi-logo" src="img/taxi.png">
+    <p>AIRXI</p>
+  </div>
+  <div class="social-media-cover">
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-youtube"></i>
+    <i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-google"></i>
+  </div>
+</div>
+
+<div class="nav-bar">
+  <div class="pages">
+    <div class="page">
+      <p><a href="#">HOME</a></p>
+      <p><a href="#">ABOUT</a></p>
+      <p><a href="#">PAGES</a></p>
+      <p><a href="#">BOOK A RIDE</a></p>
+      <p><a href="#">CONTACT</a></p>
+    </div>
+    <div class="phone-cover">
+      <div class="phone">
+        <i class="fa-solid fa-phone"></i>
+      </div>
+      <div class="contact">
+        <p id="no">555-666-777</p>
+        <p id="line">PHONE LINE</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
 
-
-
-
-
-
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () {
+    ga.q.push(arguments)
+  };
+  ga.q = [];
+  ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('set', 'transport', 'beacon');
+  ga('send', 'pageview')
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
 </body>
 
 </html>
