@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-evenly;
   width: 100%;
-  height: 15%;
+  height: 17%;
   align-items: center;
   top: 0;
 }
@@ -12,9 +12,8 @@
   position: relative;
   display: flex;
   width: 100%;
-  height: 50em;
+  height: 44.26em;
 }
-
 
 .email-container {
   display: inherit;
@@ -43,7 +42,7 @@
 
 .logo-container p {
   color: #fbfbfb;
-  font-size: 3em;
+  font-size: 3.5em;
   font-weight: bold;
 }
 
@@ -114,4 +113,140 @@
   background-color: black;
   margin-left: -30px;
   border-radius: 30px;
+}
+
+.hero-section {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 12rem;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+#title, #sub-title {
+  color: white;
+  font-size: 6em;
+  width: 900px;
+  text-align: center;
+  line-height: 85px;
+  margin-bottom: 0;
+}
+
+#sub-title {
+  font-size: 2em;
+  width: 500px;
+  line-height: 40px;
+  color: #858585;
+  margin-top: 20px;
+}
+
+.learn-cover {
+  background-color: #ffc107;
+  width: 14rem;
+  height: 5rem;
+  align-items: center;
+  margin-top: 40px;
+  border-radius: 50px;
+}
+
+.learn-cover p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.7em;
+  margin: 20px 0 0 5px;
+}
+
+#home-book-bg {
+  position: relative;
+  display: flex;
+  height: 40em;
+  width: 100%;
+}
+
+#overlay {
+  position: relative;
+  background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0.91));
+  height: 34rem;
+  top: -40rem;
+  display: flex;
+  padding-top: 6rem;
+  justify-content: space-evenly;
+}
+
+.left-section {
+  display: inherit;
+  flex-direction: column;
+  color: #f5f5f5;
+  padding-top: 4rem;
+}
+
+.fa-circle {
+  color: #ffc107;
+  font-size: 10px;
+}
+
+.left-section h1 {
+  font-size: 5em;
+  width: 500px;
+  line-height: 70px;
+  margin-top: 0;
+}
+
+.left-section h4 {
+  width: 320px;
+  color: #858585;
+  margin-top: 8px;
+}
+
+#booking {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+  margin-top: 6rem;
+}
+
+#booking input, select {
+  padding: 20px 100px 20px 30px;
+  border-radius: 100px;
+  font-weight: bold;
+  border: 1px solid #242424;
+  background-color: #242424;
+  color: #858585;
+}
+
+#booking select {
+  padding: 12px 215px 15px 30px;
+}
+
+#booking #date {
+  padding-right: 120px;
+}
+
+#booking #time {
+  padding-right: 200px;
+}
+
+#booking #book-submit {
+  padding: 10px;
+  margin: 0 0 120px 0;
+  border-radius: 70px;
+  border: 1px solid #242424;
+  background-color: #ffc107;
+  color: black;
+  font-weight: bold;
+  font-size: 1.3em;
+  transition: background-color 500ms ease-out;
+}
+
+#booking input:focus {
+  border-color: #242424;
+}
+
+#booking #book-submit:hover {
+  cursor: pointer;
+  background-color: #f1f1f1;
+  transition: background-color 500ms ease-in;
 }
