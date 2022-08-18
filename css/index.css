@@ -250,3 +250,28 @@
   background-color: #f1f1f1;
   transition: background-color 500ms ease-in;
 }
+
+.services {
+  margin-top: -35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#welcome {
+  color: #858585;
+  font-weight: bold;
+  font-size: 1em;
+  margin-top: 6px;
+  margin-bottom:
+5px;
+}
+
+#choice {
+  font-size: 4em;
+  width: 570px;
+  text-align: center;
+  line-height: 60px;
+  margin-top: 0;
+}

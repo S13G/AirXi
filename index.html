@@ -26,93 +26,113 @@
 </head>
 
 <body>
-<div class="background">
-  <img alt="taxi-bg" id="taxi-bg" src="img/slider-1-1.jpg">
-</div>
-<div class="info-flex">
-  <div class="email-container">
-    <i class="fa-solid fa-envelope"></i>
-    <p>needhelp@airxi.com</p>
-  </div>
-  <div class="logo-container">
-    <img alt="taxi-logo" id="taxi-logo" src="img/taxi.png">
-    <p>AIRXI</p>
-  </div>
-  <div class="social-media-cover">
-    <i class="fa-brands fa-twitter"></i>
-    <i class="fa-brands fa-youtube"></i>
-    <i class="fa-brands fa-facebook-f"></i>
-    <i class="fa-brands fa-google"></i>
-  </div>
-</div>
+<header>
 
-<div class="nav-bar">
-  <div class="pages">
-    <div class="page">
-      <p><a href="#">HOME</a></p>
-      <p><a href="#">ABOUT</a></p>
-      <p><a href="#">PAGES</a></p>
-      <p><a href="#">BOOK A RIDE</a></p>
-      <p><a href="#">CONTACT</a></p>
+  <div class="background">
+    <img alt="taxi-bg" id="taxi-bg" src="img/slider-1-1.jpg">
+  </div>
+  <div class="info-flex">
+    <div class="email-container">
+      <i class="fa-solid fa-envelope"></i>
+      <p>needhelp@airxi.com</p>
     </div>
-    <div class="phone-cover">
-      <div class="phone">
-        <i class="fa-solid fa-phone"></i>
-      </div>
-      <div class="contact">
-        <p id="no">555-666-777</p>
-        <p id="line">PHONE LINE</p>
-      </div>
+    <div class="logo-container">
+      <img alt="taxi-logo" id="taxi-logo" src="img/taxi.png">
+      <p>AIRXI</p>
+    </div>
+    <div class="social-media-cover">
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-youtube"></i>
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-google"></i>
     </div>
   </div>
-</div>
+</header>
 
-<div class="hero-section">
-  <h1 id="title">Cheap and Trusted Taxi Company</h1>
-  <h3 id="sub-title">Enjoy your comfortable trip with AirXi Company taxi</h3>
-  <div class="learn-cover">
-    <p>Learn more</p>
+<nav>
+
+  <div class="nav-bar">
+    <div class="pages">
+      <div class="page">
+        <p><a href="#">HOME</a></p>
+        <p><a href="#">ABOUT</a></p>
+        <p><a href="#">PAGES</a></p>
+        <p><a href="#">BOOK A RIDE</a></p>
+        <p><a href="#">CONTACT</a></p>
+      </div>
+      <div class="phone-cover">
+        <div class="phone">
+          <i class="fa-solid fa-phone"></i>
+        </div>
+        <div class="contact">
+          <p id="no">555-666-777</p>
+          <p id="line">PHONE LINE</p>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
+</nav>
 
-<div class="home-booking-background">
-  <img src="img/slider-1-2.jpg" alt="" id="home-book-bg">
-</div>
-<div id="overlay">
-  <div class="left-section">
-    <i class="fa-solid fa-circle"></i>
-    <h3>Looking for taxi?</h3>
-    <h1>Make your booking</h1>
-    <h4>Our taxis commit to make your trips unique by best answering your needs</h4>
+<main>
+
+  <div class="hero-section">
+    <h1 id="title">Cheap and Trusted Taxi Company</h1>
+    <h3 id="sub-title">Enjoy your comfortable trip with AirXi Company taxi</h3>
+    <div class="learn-cover">
+      <p>Learn more</p>
+    </div>
   </div>
-  <form id="booking">
-    <label>
-      <input type="text" placeholder="Your name">
-    </label>
-    <label>
-      <input type="email" placeholder="Email address">
-    </label>
-    <label>
-      <input type="number" placeholder="Passengers">
-    </label>
-    <label>
-    <select name="airport" data-display-toggle="Airport" id="airport">
-      <option value="">Airport</option>
-    </select>
-    </label>
-    <label>
-      <input type="text" placeholder="Drop Off Address">
-    </label>
-    <label>
-      <input id="date" type="date" placeholder="Select Date">
-    </label>
-    <label>
-      <input id="time" type="time" placeholder="Select">
-    </label>
-    <button id="book-submit" type="submit">Book Now</button>
-  </form>
-</div>
 
+  <div class="home-booking-background">
+    <img alt="" id="home-book-bg" src="img/slider-1-2.jpg">
+  </div>
+  <div id="overlay">
+    <div class="left-section">
+      <i class="fa-solid fa-circle"></i>
+      <h3>Looking for taxi?</h3>
+      <h1>Make your booking</h1>
+      <h4>Our taxis commit to make your trips unique by best answering your needs</h4>
+    </div>
+    <form id="booking">
+      <label>
+        <input placeholder="Your name" type="text">
+      </label>
+      <label>
+        <input placeholder="Email address" type="email">
+      </label>
+      <label>
+        <input placeholder="Passengers" type="number">
+      </label>
+      <label>
+        <select data-display-toggle="Airport" id="airport" name="airport">
+          <option value="">Airport</option>
+        </select>
+      </label>
+      <label>
+        <input placeholder="Drop Off Address" type="text">
+      </label>
+      <label>
+        <input id="date" placeholder="Select Date" type="date">
+      </label>
+      <label>
+        <input id="time" placeholder="Select" type="time">
+      </label>
+      <button id="book-submit" type="submit">Book Now</button>
+    </form>
+  </div>
+
+  <div class="services">
+    <i class="fa-solid fa-circle fa-circle2"></i>
+    <p id="welcome">Welcome to Airxi company</p>
+    <h1 id="choice">Your first choice for traveling anywhere</h1>
+  </div>
+
+  <div class="offers">
+    <div class="private">
+
+    </div>
+  </div>
+</main>
 
 <script src="js/vendor/modernizr-3.11.2.min.js"></script>
 <script src="js/plugins.js"></script>
