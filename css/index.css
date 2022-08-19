@@ -53,6 +53,12 @@
   gap: 30px;
 }
 
+.social-media-cover a:-webkit-any-link {
+  color: #fbfbfb;
+}
+
+
+
 .nav-bar {
   position: absolute;
   display: flex;
@@ -64,6 +70,7 @@
   font-weight: bold;
 }
 
+
 .pages {
   display: inherit;
   background-color: #ffc107;
@@ -72,6 +79,13 @@
   align-items: center;
   border-bottom-left-radius: 50px;
   border-top-right-radius: 50px;
+}
+
+.pages2 {
+  position: fixed;
+  width: 100%;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
 }
 
 .page, .phone-cover {
@@ -353,7 +367,7 @@
   justify-content: space-evenly;
   align-items: center;
   margin-top: 7rem;
-  background-color: #f5f5f5;
+  background-color: #eaeaea;
   height: 600px;
 }
 
