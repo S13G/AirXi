@@ -175,6 +175,11 @@
   border-radius: 50px;
 }
 
+.learn-cover a {
+  text-decoration: none;
+  color: black;
+}
+
 .learn-cover:hover {
   background-color: #ffb107;
   cursor: pointer;
@@ -328,6 +333,13 @@
   background-color: whitesmoke;
   border-radius: 15px;
   box-shadow: 1px 1px 7px #d2d2d2;
+  transition: background-color 300ms ease-out;
+
+}
+
+.private:hover {
+  background-color: #dddddd;
+  transition: background-color 300ms ease-in;
 }
 
 .circle1, .circle2 {
@@ -635,18 +647,35 @@
   gap: 20px;
 }
 
-.first p {
+#rum, #sign, #addr {
   width: 250px;
+}
+
+.first p {
   color: #858585;
+}
+
+.links {
 }
 
 .first i {
   color: white;
+  transition: color 200ms ease-out;
 }
 
 .links {
   width: 200px;
   gap: 15px;
+}
+
+.links p {
+    transition: color 200ms ease-out;
+
+}
+
+.links p:hover {
+  color: #ffc107;
+  transition: color 200ms ease-in;
 }
 
 .contact > .email-container > .fa-envelope,
@@ -687,3 +716,15 @@
   display: flex;
 }
 
+.footer .email-container p {
+  color: white;
+}
+
+.first i:hover {
+  color: #ffc107;
+  transition: color 200ms ease-in;
+}
+
+.social-media-cover a:hover {
+  color: #ffc107;
+}
