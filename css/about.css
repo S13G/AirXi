@@ -1,0 +1,76 @@
+.page-link {
+  margin-top: 6rem;
+}
+
+.page-link a:-webkit-any-link {
+  text-decoration: none;
+}
+
+.page-link p {
+  font-size: 1.9em;
+}
+
+.page-link a {
+  color: #ffc107;
+  transition: font-size 300ms ease-out;
+}
+
+.page-link p {
+  color: #dddddd;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.page-link a:hover {
+  transition: font-size 300ms ease-in;
+  font-size: 1.2em;
+  text-decoration: 2px underline #f5f5f5;
+}
+
+.about-header {
+  font-size: 2.2em;
+  color: #f1f1f1;
+  margin-top: -2rem;
+}
+
+.background img {
+  width: 100%;
+  height: 35em;
+}
+
+.about-us-sec {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.us-words #few {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #858585;
+  margin-top: 0.5rem;
+}
+
+.us-words h1 {
+  width: 500px;
+  font-size: 4em;
+  line-height: 60px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.us-words p {
+  width: 600px;
+  color: #888888;
+  font-size: 0.9em;
+  white-space: pre-line;
+}
+
+.pic-container {
+  border: 1px solid rgba(50, 50, 50, 0.2);
+  box-shadow: 1px 1px 20px #858585;
+}
+
+.partners {
+  margin-top: 10rem;
+}
