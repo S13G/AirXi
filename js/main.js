@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
       let element = document.querySelector(".navbar");
       element.classList.add("pages2")
       element.classList.remove("pages")
+
     } else {
       let element = document.querySelector(".navbar");
       element.classList.remove("pages2")

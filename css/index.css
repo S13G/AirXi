@@ -82,7 +82,7 @@
 
 .pages2 {
   display: inherit;
-  background-color: #ffc107 !important;
+  background-color: #ffc107;
   position: fixed;
   top: 0;
   z-index: 600;
@@ -102,6 +102,16 @@
   width: 20%;
   margin-right: -5rem;
   border-top-right-radius: 40px;
+}
+
+.phone-cover2 {
+  display: inherit;
+  align-items: center;
+  gap: 30px;
+  background-color: black;
+  margin-right: -5rem;
+  border: 0;
+  width: 20%;
 }
 
 .page {
