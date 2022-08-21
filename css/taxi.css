@@ -1,0 +1,90 @@
+.intro-taxi {
+  margin-left: 5rem;
+}
+
+.rental-tax {
+  padding-top: 4rem;
+}
+
+.intro-taxi h3 {
+  font-size: 1.5em;
+  color: #858585;
+  margin: 0;
+}
+
+.intro-taxi h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.border-line {
+  width: 7rem;
+  height: 0.5rem;
+  margin-top: 7px;
+  background-color: #ffcc00;
+}
+
+.taxi-container {
+  margin: 4rem 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 2rem;
+  padding-bottom: 4rem;
+}
+
+.taxi-boxes {
+  display: inherit;
+  width: 16rem;
+  height: auto;
+  background-color: #ffcc00;
+  flex-direction: column;
+  border-radius: 15px;
+  transition: color 300ms ease-out;
+}
+
+.taxi-image img {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: auto;
+}
+
+.taxi-info {
+  position: relative;
+  display: inherit;
+  flex-direction: column;
+}
+
+.banner-taxi {
+  content: "";
+  background-image: url("../img/rental-bottom-border.png");
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 16px;
+  opacity: 0.5;
+  background-repeat: repeat;
+}
+
+.car-name {
+  margin: 25px 0 0 15px;
+  font-family: "Poppins", serif;
+}
+
+.car-model {
+  margin: 0 0 15px 15px;
+  font-family: "Poppins", serif;
+}
+
+.rental {
+  margin-top: 6rem;
+  background-color: #ebebeb;
+}
+
+
+.taxi-boxes:hover {
+  transition: color 250ms ease-in;
+  background-color: #dda807;
+  color: whitesmoke;
+}
