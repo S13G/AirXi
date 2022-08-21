@@ -1,0 +1,23 @@
+.make-booking {
+  margin-left: 6rem;
+}
+
+.make-booking h3 {
+  font-size: 1em;
+  color: #999999;
+  margin: 8px 0 2px 0;
+  font-family: Poppins, serif;
+}
+
+.make-booking h1 {
+  font-size: 3.5em;
+  margin: 0;
+  font-family: "Poppins", serif;
+}
+
+.make-booking p {
+  width: 700px;
+  color: #999999;
+  line-height: 30px;
+  margin-top: 30px;
+}

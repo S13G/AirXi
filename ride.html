@@ -22,6 +22,7 @@
   <link href="css/index.css" rel="stylesheet">
   <link href="css/about.css" rel="stylesheet">
   <link href="css/taxi.css" rel="stylesheet">
+  <link href="css/ride.css" rel="stylesheet">
 
   <meta content="#fafafa" name="theme-color">
   <script src="js/main.js"></script>
@@ -82,6 +83,84 @@
     <div class="about-header">
       <h1>Book a Ride</h1>
     </div>
+  </div>
+
+  <div class="make-booking">
+    <i class="fa-solid fa-circle"></i>
+    <h3>Looking for taxi?</h3>
+    <h1>Make your booking</h1>
+    <p>There are many variations of passages of lorem ipsum available but the majority have suffered alteration in some
+      form by injected humor or random word which don't look even slightly believable you are going to use a passage.
+    </p>
+  </div>
+
+  <div class="form">
+    <h2>Select Information</h2>
+    <form action="" id="info">
+      <label for="name">
+        <input id="name" name="your_name" placeholder="Your name" type="text">
+      </label>
+      <label for="email">
+        <input id="email" name="email" placeholder="Email address" type="email">
+      </label>
+      <label for="phone">
+        <input id="phone" name="phone" placeholder="Phone" type="number">
+      </label>
+      <label for="passengers">
+        <input id="passengers" name="passengers" placeholder="Passenger(s)" type="number">
+      </label>
+      <label for="airport">
+        <select data-display-toggle="Airport" id="airport" name="airport">
+          <option value="">Airport</option>
+        </select>
+      </label>
+      <label for="drop-off">
+        <input type="text" name="drop-off" id="drop-off" placeholder="Drop-Off Address">
+      </label>
+      <label for="date">
+        <input type="date" name="date" id="date" placeholder="Select Date">
+      </label>
+      <label for="time">
+        <input type="time" name="time" id="time" placeholder="Select time">
+      </label>
+      <h2>Select Car Type</h2>
+      <label for="any">
+        <input type="radio" name="Any type" id="any">
+        Any type
+      </label>
+      <label for="hybrid">
+        <input type="radio" name="hybrid" id="hybrid">
+        Hybrid
+      </label>
+      <label for="suv">
+        <input type="radio" name="suv" id="suv">
+        SUV
+      </label>
+      <label for="limo">
+        <input type="radio" name="limo" id="limo">
+        Limousine
+      </label>
+      <label for="cab">
+        <input type="radio" name="cab" id="cab">
+        Cab
+      </label>
+      <h2>Other Information</h2>
+      <label for="car-model">
+        <select name="car-model" id="car-model">
+          <option value="Car Model" >EC1 2020</option>
+        </select>
+      </label>
+      <label for="driver_name">
+        <select name="driver_name" id="driver_name">
+          <option value="Driver name" >John Doe</option>
+        </select>
+      </label>
+      <label for="terms">
+        <input type="radio" name="terms" id="terms" required="required">
+        By using this form, you agree to our terms and conditions.
+      </label>
+      <input type="submit" value="Book Now">
+    </form>
   </div>
 </main>
 
