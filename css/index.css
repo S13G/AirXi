@@ -69,7 +69,7 @@
 }
 
 
-#pages {
+.pages {
   display: inherit;
   background-color: #ffc107;
   width: 80%;
@@ -82,13 +82,13 @@
 
 .pages2 {
   display: inherit;
-  background-color: #ffc107;
+  background-color: #ffc107 !important;
   position: fixed;
   top: 0;
+  z-index: 600;
   width: 100%;
   justify-content: space-evenly;
-  border-bottom-left-radius: 0;
-  border-top-right-radius: 0;
+  border: 0;
 }
 
 .page, .phone-cover {
