@@ -1,0 +1,66 @@
+.contact-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-cont p {
+  color: #858585;
+  font-weight: bold;
+  font-size: 1em;
+  font-family: Poppins, serif;
+}
+
+.contact-cont h1 {
+  font-size: 3.5em;
+  font-family: Poppins, serif;
+  margin: 0;
+  color: black;
+}
+
+.contact-form #cf {
+  display: flex;
+  width: 57rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+#cf {
+  margin-top: 2rem;
+}
+
+#cf input {
+  height: 67px;
+  padding: 0 4rem 0 2rem;
+  border-radius: 33px;
+  border: none;
+  outline: none;
+  background-color: #e8e8e8;
+  color: #858585;
+  font-weight: bold;
+  font-size: 0.9em;
+  font-family: "Poppins Medium", serif;
+}
+
+#cf #message {
+  padding: 0 29.5rem 7rem 2rem;
+}
+
+#send {
+  padding: 1.5rem 2.2rem;
+  border: none;
+  border-radius: 50px;
+  background-color: #ffc107;
+  font-size: 1.3em;
+  font-family: "Poppins SemiBold", serif;
+  transition: background-color 300ms ease-out;
+}
+
+#send:hover {
+  background-color: black;
+  color: #ffc107;
+  transition: background-color 300ms ease-in;
+}

@@ -72,7 +72,7 @@
 .pages {
   display: inherit;
   background-color: #ffc107;
-  width: 80%;
+  width: 75%;
   z-index: 500;
   justify-content: space-evenly;
   align-items: center;
