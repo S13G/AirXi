@@ -1,95 +1,100 @@
 .make-booking {
-  margin-left: 6rem;
+    margin-left: 6rem;
 }
 
 .make-booking h3 {
-  font-size: 1em;
-  color: #999999;
-  margin: 8px 0 2px 0;
-  font-family: Poppins, serif;
+    font-size: 1em;
+    color: #999999;
+    margin: 8px 0 2px 0;
+    font-family: "Poppins", serif;
 }
 
 .make-booking h1 {
-  font-size: 3.5em;
-  margin: 0;
-  font-family: "Poppins", serif;
+    font-size: 3.5em;
+    margin: 0;
+    font-family: "Poppins", serif;
 }
 
 .make-booking p {
-  width: 700px;
-  color: #999999;
-  line-height: 30px;
-  margin-top: 30px;
+    width: 700px;
+    color: #999999;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+#info {
+    font-family: "Helvetica", serif;
 }
 
 .form {
-  display: flex;
-  margin-left: 6rem;
-  flex-direction: column;
-  gap: 10px;
-  font-family: "Roboto", serif;
-  margin-top: 3rem;
+    display: flex;
+    margin-left: 6rem;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 3rem;
 }
 
 .form2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .first-form {
-  display: grid;
-  grid-template-columns: 400px 400px;
-  row-gap: 20px;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    row-gap: 20px;
 }
 
 .first-form input,
-#model, #airport, #submit {
-  background-color: #d3d3d3;
-  border: none;
-  outline: none;
-  color: #717171;
-  height: 67px;
-  width: 50%;
-  border-radius: 33px;
-  padding-left: 3rem;
-  padding-right: 3rem;
-  font-size: 1em;
-  font-weight: 500;
+#model,
+#airport,
+#submit {
+    background-color: #d3d3d3;
+    border: none;
+    outline: none;
+    color: #717171;
+    height: 67px;
+    width: 50%;
+    border-radius: 33px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 1em;
+    font-weight: 500;
 }
 
 #airport {
-  width: 74%;
+    width: 74%;
 }
 
 #submit {
-  margin-top: 2rem;
-  margin-left: -0.3rem;
-  width: 20%;
-  background-color: #ffc107;
-  color: black;
-  font-size: 1.2em;
-  transition: background-color 300ms ease-out;
+    margin-top: 2rem;
+    margin-left: -0.3rem;
+    width: 20%;
+    background-color: #ffc107;
+    color: black;
+    font-size: 1.2em;
+    transition: background-color 300ms ease-out;
 }
 
 #submit:hover {
-  color: #ffc107;
-  background-color: black;
-  transition: background-color 300ms ease-in;
+    color: #ffc107;
+    background-color: black;
+    transition: background-color 300ms ease-in;
 }
 
 ul {
-  list-style-type: none;
-  margin-left: -3rem;
-  font-weight: bold;
-  color: #858585;
+    list-style-type: none;
+    margin-left: -3rem;
+    font-weight: bold;
+    color: #858585;
 }
 
 ul input {
-  width: 30%;
-  height: 18px;
+    width: 30%;
+    height: 18px;
 }
 
 .form2 {
-  grid-template-columns: 200px 100px;
-  row-gap: 10px;
+    grid-template-columns: 200px 100px;
+    row-gap: 10px;
 }
